@@ -13,7 +13,7 @@
  }
 
  body{
-     font-family:sans-serif;
+     font-family:'Roboto', sans-serif;
      
  }
 
@@ -38,6 +38,8 @@
  }
  header h1{
      margin-bottom:.5em;
+     font-size:2.5em;
+     letter-spacing:3px;
  }
 
  article{
@@ -45,6 +47,8 @@
  }
  article h2{
      margin-bottom:.5em;
+     font-size:1.7em;
+     letter-spacing:3px;
  }
  article img {
      margin-bottom:1em;
