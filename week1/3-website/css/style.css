@@ -6,3 +6,57 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+ *{
+     margin:0;
+     padding:0;
+     box-sizing: border-box;
+ }
+
+ body{
+     font-family:sans-serif;
+     
+ }
+
+ .container{
+     max-width:1000px;
+     margin:0 auto;
+     /* background:burlywood; */
+ }
+
+ .inner-container{
+     max-width:700px;
+     /* background:cadetblue; */
+ }
+
+ .inner-box{
+    width:700px;
+ }
+
+ header{
+     margin-top:2em;
+     margin-bottom:2rem;
+ }
+ header h1{
+     margin-bottom:.5em;
+ }
+
+ article{
+     margin-bottom:2em;
+ }
+ article h2{
+     margin-bottom:.5em;
+ }
+ article img {
+     margin-bottom:1em;
+ }
+ article p{
+    line-height:1.5;
+ }
+
+ footer{
+     margin-bottom:3em;
+ }
+ footer p {
+     margin-top:.5em;
+     font-size:.9em;
+ }
